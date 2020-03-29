@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.FullPage{
+    height:80vh;
+    width: 100%;
+    border: 5px solid darkslategray;
+    border-radius: 5px;
+    margin-top: 10vh;
+}
+.FullPage h1{
+    text-align: center;
+    color: darkslategray;
+}
+.frmContainer{
+    float:right;
+}
+.frmContainer form input ,button{
+    width: 200px;
+    height: 30px;
+    margin: 10px 200px 10px 0px;
+}
+.frmContainer label{
+    color:darkslategray;
+    font-weight: bold;
+}
+.imgComponent ,.frmContainer{
+    display: inline-block;
+}
+.imgComponent{
+    margin-left: 20px;
+}
